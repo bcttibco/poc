@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<msv:DocumentRoot xmlns:msv="http://tns.tibco.com/bw/model/core/moduleSV">
+  <moduleSharedVariables>
+    <moduleSharedVariable name="SharedResources.Shared-Variable" type="{http://www.tibco.com/schemas/MylearningCode/SharedResources/Schema.xsd}StaticCodes" initialValueMode="none"/>
+    <moduleSharedVariable name="framework-library.shared-resources.shared-variables.error-handling.canonical-error-codes" type="{http://www.vodafone.com/central-esb/management-framework/schemas/common/internal/error-config/v1}canonical-error-codes-config" initialValueMode="textfile" initialValue="/framework-library/shared-resources/config-files/error-handling/canonical-error-codes-config.xml" initialValueFileName="/framework-library/shared-resources/config-files/error-handling/canonical-error-codes-config.xml"/>
+    <moduleSharedVariable name="framework-library.shared-resources.shared-variables.error-handling.error-mapping" type="{http://www.vodafone.com/central-esb/management-framework/schemas/common/internal/error-config/v1}tibco-error-to-canonical" initialValueMode="textfile" initialValue="/framework-library/shared-resources/config-files/error-handling/error-mapping/auto-generated/error-mapping.xml" initialValueFileName="/framework-library/shared-resources/config-files/error-handling/error-mapping/auto-generated/error-mapping.xml"/>
+  </moduleSharedVariables>
+  <import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.tibco.com/schemas/MylearningCode/SharedResources/Schema.xsd" location="../SharedResources/Schema.xsd"/>
+  <import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.vodafone.com/central-esb/management-framework/schemas/common/internal/error-config/v1" location="../framework-library/shared-resources/schemas/common/internal/error-config_1_0.xsd"/>
+</msv:DocumentRoot>

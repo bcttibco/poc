@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<msv:DocumentRoot xmlns:msv="http://tns.tibco.com/bw/model/core/moduleSV">
+  <moduleSharedVariables>
+    <moduleSharedVariable name="SharedResources.Shared-Variable" type="{http://www.tibco.com/schemas/MylearningCode/SharedResources/Schema.xsd}StaticCodes" initialValueMode="none"/>
+  </moduleSharedVariables>
+  <import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.tibco.com/schemas/MylearningCode/SharedResources/Schema.xsd" location="../SharedResources/Schema.xsd"/>
+</msv:DocumentRoot>

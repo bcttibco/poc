@@ -1,0 +1,10 @@
+INDEX VERSION 1.127+C:\BW6\workspaceCLE\.metadata\.plugins\org.eclipse.jdt.core
+2454186466.index
+1656793267.index
+1178318670.index
+2376975598.index
+438946863.index
+3700872220.index
+1793755763.index
+1930133039.index
+1582707011.index

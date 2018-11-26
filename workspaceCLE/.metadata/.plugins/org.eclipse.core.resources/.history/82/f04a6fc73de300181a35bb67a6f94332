@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:javasharedresource="http://ns.tibco.com/bw/palette/javasharedresource" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_0kM_4OMzEeiWqemz-WGOag" targetNamespace="http://tns.tibco.com/bw/composite/BWProj" name="BWProj" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_0kM_4eMzEeiWqemz-WGOag" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0kM_4uMzEeiWqemz-WGOag" name="BW.APPNODE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0kM_4-MzEeiWqemz-WGOag" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0kM_5OMzEeiWqemz-WGOag" name="BW.HOST.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0kM_5eMzEeiWqemz-WGOag" name="BW.DOMAIN.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0kM_5uMzEeiWqemz-WGOag" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0kM_5-MzEeiWqemz-WGOag" name="BW.APPSPACE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0kM_6OMzEeiWqemz-WGOag" name="BW.MODULE.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0kM_6eMzEeiWqemz-WGOag" name="BW.MODULE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1AJVAOMzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/JNDIContextURL" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1AJVAeMzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/JNDIContextFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1AJVAuMzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/TopicConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1AJVA-MzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/QueueConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1AJVBOMzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/JNDIUser" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1AJVBeMzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/JNDIPassword" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1AJVBuMzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/userId" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1AJVB-MzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/password" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2FelYOMzEeiWqemz-WGOag" name="framework-library/logging/level/information" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2FmhMOMzEeiWqemz-WGOag" name="framework-library/logging/level/warning" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2FnIQOMzEeiWqemz-WGOag" name="framework-library/logging/level/debug" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2FnIQeMzEeiWqemz-WGOag" name="framework-library/logging/level/error" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2O8DYOMzEeiWqemz-WGOag" name="Domain" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2nRq4OMzEeiWqemz-WGOag" name="framework-library/auditing/role/normal" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2nRq4eMzEeiWqemz-WGOag" name="framework-library/auditing/role/error" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2yGa0OMzEeiWqemz-WGOag" name="framework-library/auditing/audit-error-messages" type="XMLSchema:boolean" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3XiqMOMzEeiWqemz-WGOag" name="framework-library/error/default/code" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3X0XAOMzEeiWqemz-WGOag" name="framework-library/error/default/name" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3X_9MOMzEeiWqemz-WGOag" name="framework-library/error/default/description" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3YK8UOMzEeiWqemz-WGOag" name="framework-library/error/default/severity" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3YVUYOMzEeiWqemz-WGOag" name="framework-library/error/default/group" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3YgTgOMzEeiWqemz-WGOag" name="framework-library/error/default/category" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3YrSoOMzEeiWqemz-WGOag" name="framework-library/error/default/fault-name" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3Y1DoOMzEeiWqemz-WGOag" name="framework-library/error/default/fault-code" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3Y_bsOMzEeiWqemz-WGOag" name="framework-library/error/default/fault-category" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_4Inh0OMzEeiWqemz-WGOag" name="framework-library/auditing/code/error_start" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_4bWQkOMzEeiWqemz-WGOag" name="framework-library/auditing/code/error_end" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_5JvnoOMzEeiWqemz-WGOag" name="framework-library/helpers/error-config-path" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_6wpUAOMzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/topic" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_6wpUAeMzEeiWqemz-WGOag" name="framework-library/sharedresources/JMS/excepionTopic" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_6wtlcOMzEeiWqemz-WGOag" name="javaGlobalInstanceProperty" type="javasharedresource:JavaGlobalInstanceResource" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_6zcwYOMzEeiWqemz-WGOag" name="javaGlobalInstanceProperty-1" type="javasharedresource:JavaGlobalInstanceResource" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_7QEa8OMzEeiWqemz-WGOag" name="framework-library/auditing/Retry" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_7eKhUOMzEeiWqemz-WGOag" name="framework-library/auditing/backendPayload" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_734B0OMzEeiWqemz-WGOag" name="framework-library/auditing/offloadertimer" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_76IroOMzEeiWqemz-WGOag" name="framework-library-auditing-offloadertimer-1" type="XMLSchema:int" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_43SlsOMzEeiWqemz-WGOag" name="framework-library.utility-services.testers.log-and-audit-testerComponent" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_43Tz0OMzEeiWqemz-WGOag" processName="framework-library.utility-services.testers.log-and-audit-tester"/>
+  </sca:component>
+  <sca:component xmi:id="_7B7RQOMzEeiWqemz-WGOag" name="ActivatorComponent" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_7B7RQeMzEeiWqemz-WGOag" processName="Activator"/>
+  </sca:component>
+  <sca:component xmi:id="_78y-EOMzEeiWqemz-WGOag" name="framework-library.utility-services.auditing.CacheOffloaderTimerProcessComponent" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_78y-EeMzEeiWqemz-WGOag" processName="framework-library.utility-services.auditing.CacheOffloaderTimerProcess"/>
+  </sca:component>
+</sca:composite>
